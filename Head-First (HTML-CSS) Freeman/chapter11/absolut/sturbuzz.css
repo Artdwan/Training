@@ -23,7 +23,11 @@ body {
     font-size:        105%;
     padding:          15px;
     margin:           0px 10px 10px 10px;
-  }
+    position: absolute; 
+    top: 128px;
+    right: 0px;
+    width: 280px;
+}
   
   #footer {
     background-color: #675c47;
