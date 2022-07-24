@@ -12,7 +12,11 @@ body {
   
   }
   #headerSlogan {float: right;}
-
+  #award {
+    position: absolute;
+    top: 30px;
+    left: 365px;
+  }
   #main {
     display: table-cell; 
     background:       #efe5d0 url(images/background.gif) top left;
