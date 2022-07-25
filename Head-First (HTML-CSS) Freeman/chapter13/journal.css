@@ -28,10 +28,12 @@ table {
     margin-right: 20px;
     border: thin solid black; 
     caption-side: bottom;
+    border-spacing: 0px;
 }
 td, th {
     border: thin dotted gray;
     padding: 5px;
+    
 }
 caption {
     font-style: italic;
