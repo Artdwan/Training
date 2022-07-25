@@ -14,25 +14,7 @@ body {
   header.top img#headerSlogan {
       float: right;
   }
-  
-  /* REMOVE FOR CHAP 12 */
-  #award {
-      position: absolute;
-      top: 30px;
-      left: 365px;
-  }
-  
-  #coupon {
-      position: fixed;
-      top: 350px;
-      left: -90px;
-  }
-  
-  #coupon a, img {
-      border: none;
-  }
-  /*---*/
-  
+    
   #tableContainer {
       display: table;
       border-spacing: 10px;
