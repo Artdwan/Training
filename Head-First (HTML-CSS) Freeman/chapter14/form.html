@@ -23,7 +23,7 @@
         <p>Тип:<br>
             <input type="radio" 
             name="beantype" value="зёрна">Кофе в зёрнах<br>
-            <input type="radio" checked name="beantype" 
+            <input type="radio" checked="checked" name="beantype" 
             value="молотый" >Молотый кофе
         </p>
         <p>Количество пактеков:
@@ -32,6 +32,12 @@
         <p>Доставить к указанной дате:
             <input type="date" name="date">
         </p>
+        <p>Доплнительные услуги:<br>
+            <input type="checkbox" name="extras[]"
+            value="подарочная упаковка">Подарочная упаковка
+            <input type="checkbox" name="extras[]"
+            value="каталог" checked="checked">Доставка каталога вместе с заказом
+        </p>
         <p>Доставить по адресу: <br>
             Имя: <input type="text" name="name"><br>
             Адрес: <input type="text" name="address"><br>
@@ -39,6 +45,9 @@
             Страна: <input type="text" name="state"><br>
             Почтовый индекс: <input type="text" name="zip"><br>
             Телефон: <input type="tel" name="phone"><br>
+        </p>
+        <p>Комментарии клиентов: <br>
+            <textarea name="comments"></textarea>
         </p>
         <p>
             <input type="submit" value="Заказать сейчас">
