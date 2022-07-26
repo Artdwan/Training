@@ -12,46 +12,87 @@
     </h2>
     <form action="http://starbuzzcoffee.com/processorder.php"
     method="GET">
-        <p> Выберите кофе:
-            <select name="beans">
-                <option value="Смесь">Домашняя смесь</option>
-                <option value="Боливия">Боливия</option>
-                <option value="Гватемала">Гватемала</option>
-                <option value="Кения">Кения</option>
-            </select>
-        </p>
-        <p>Тип:<br>
-            <input type="radio" 
-            name="beantype" value="зёрна">Кофе в зёрнах<br>
-            <input type="radio" checked="checked" name="beantype" 
-            value="молотый" >Молотый кофе
-        </p>
-        <p>Количество пактеков:
-            <input type="number" name="bags" min="1" max="10">
-        </p>
-        <p>Доставить к указанной дате:
-            <input type="date" name="date">
-        </p>
-        <p>Доплнительные услуги:<br>
-            <input type="checkbox" name="extras[]"
-            value="подарочная упаковка">Подарочная упаковка
-            <input type="checkbox" name="extras[]"
-            value="каталог" checked="checked">Доставка каталога вместе с заказом
-        </p>
-        <p>Доставить по адресу: <br>
-            Имя: <input type="text" name="name"><br>
-            Адрес: <input type="text" name="address"><br>
-            Город: <input type="text" name="city"><br>
-            Страна: <input type="text" name="state"><br>
-            Почтовый индекс: <input type="text" name="zip"><br>
-            Телефон: <input type="tel" name="phone"><br>
-        </p>
-        <p>Комментарии клиентов: <br>
-            <textarea name="comments"></textarea>
-        </p>
+      <div class="tableRow">
+            <p> Выберите кофе:</p>
+            <p>
+                <select name="beans">
+                    <option value="Смесь">Домашняя смесь</option>
+                    <option value="Боливия">Боливия</option>
+                    <option value="Гватемала">Гватемала</option>
+                    <option value="Кения">Кения</option>
+                </select>
+            </p>
+      </div> 
+      <div class="tableRow">
+            <p>Тип:</p>
+            <p>
+                <input type="radio" 
+                name="beantype" value="зёрна">Кофе в зёрнах<br>
+                <input type="radio" checked="checked" name="beantype" 
+                value="молотый" >Молотый кофе
+            </p>
+     </div>
+     <div class="tableRow">
+            <p>Количество пактеков:</p>
+            <p>
+                <input type="number" name="bags" min="1" max="10">
+            </p>
+     </div>
+     <div class="tableRow">
+            <p>Доставить к указанной дате:</p>
+            <p>
+                <input type="date" name="date">
+            </p>
+     </div>
+     <div class="tableRow">
+            <p>Доплнительные услуги:</p>
+            <p>
+                <input type="checkbox" name="extras[]"
+                value="подарочная упаковка">Подарочная упаковка
+                <input type="checkbox" name="extras[]"
+                value="каталог" checked="checked">Доставка каталога вместе с заказом
+            </p>
+     </div>
+     <div class="tableRow">
+            <p class="heading">Доставить по адресу:</p>
+            <p></p>
+            <p>Имя:</p>
+            <p>
+                <input type="text" name="name"><br>
+            </p>
+            <p>Адрес:</p>
+            <p>    
+                <input type="text" name="address"><br>
+            </p>
+            <p>Город:</p>
+            <p>  
+                <input type="text" name="city"><br>
+            </p>
+            <p> Страна:</p>
+            <p>
+                <input type="text" name="state"><br>
+            </p> 
+            <p>Почтовый индекс:</p>
+            <p>
+                <input type="text" name="zip"><br>
+            </p>
+            <p>Телефон:</p>
+            <p>
+                <input type="tel" name="phone"><br>
+            </p>
+     </div>
+     <div class="tableRow">
+            <p>Комментарии клиентов:</p>
+            <p>
+                <textarea name="comments"></textarea>
+            </p>
+    </div>
+    <div class="tableRow">
+        <p></p>
         <p>
             <input type="submit" value="Заказать сейчас">
         </p>
+    </div>
     </form>
 
 
