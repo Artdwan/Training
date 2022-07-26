@@ -23,10 +23,15 @@
         <p>Тип:<br>
             <input type="radio" 
             name="beantype" value="зёрна">Кофе в зёрнах<br>
-            <input type="radio" name="beantype" 
-            value="молотый">Молотый кофе
+            <input type="radio" checked name="beantype" 
+            value="молотый" >Молотый кофе
         </p>
-    
+        <p>Количество пактеков:
+            <input type="number" name="bags" min="1" max="10">
+        </p>
+        <p>Доставить к указанной дате:
+            <input type="date" name="date">
+        </p>
         <p>Доставить по адресу: <br>
             Имя: <input type="text" name="name"><br>
             Адрес: <input type="text" name="address"><br>
