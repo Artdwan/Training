@@ -45,3 +45,9 @@ th {background-color: #cc6600;}
 .cellcolor {background-color: #fcba7a;}
 .blue {background-color: blue;}
 .pink {background-color: pink;}
+
+li {
+  list-style-image: url(images/backpack.gif);
+  margin-left: 20px;
+  padding-top: 5px;
+}
